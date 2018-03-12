@@ -8,4 +8,13 @@ public class CafeList {
 		this.cafeList = cafeList;
 	}
 
+	public CafeList() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public ArrayList<Cafe> getCafeList() {
+		// TODO Auto-generated method stub
+		return cafeList;
+	}
+
 }

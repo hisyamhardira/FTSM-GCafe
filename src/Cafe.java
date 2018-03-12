@@ -1,16 +1,16 @@
-import java.util.*;
+
 public class Cafe {
 	
 	private String name;
 	private String address;
 	private int noOfBarista;
-	private ArrayList<Beverage> beverageList=new ArrayList<Beverage>();
+	private BeverageList beverageList;
 	
 	public Cafe (String name, String address, int noOfBarista) {
 		this.name =name;
 		this.address=address;
 		this.noOfBarista =noOfBarista;
-		
+		beverageList = new BeverageList();
 	}
     
 	public String getName() {
@@ -23,6 +23,10 @@ public class Cafe {
 
 	public int getNoOfBarista() {
 		return noOfBarista;
+	}
+
+	public BeverageList getBeverageList() {
+		return beverageList;
 	}
 	
 	
