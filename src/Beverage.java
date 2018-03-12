@@ -11,7 +11,7 @@ private String nutritionInfo;
 
 public Beverage(String o,String b, String n,boolean v,double p, int q, String nu)
 {
-	origin = o;
+	this.origin = o;
 	brand = b;
 	name = n;
 	veganFriendly = v;
