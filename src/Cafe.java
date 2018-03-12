@@ -4,7 +4,7 @@ public class Cafe {
 	private String name;
 	private String address;
 	private int noOfBarista;
-	private beverageList <beverage>
+	private ArrayList<Beverage> beverageList=new ArrayList<Beverage>();//creating new generic arraylist 
 	
     
 }
